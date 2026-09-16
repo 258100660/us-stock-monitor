@@ -6,13 +6,13 @@
 - 包月价格$199,  年费价格$1920 
 - 官网 https://polygon.io/
 
-![polygon](images\0.polygon.png)
+![polygon](images/0.polygon.png)
 
 
 
 # 软件架构
 
-![architech](images\1.architech.png)
+![architech](images/1.architech.png)
 
 # 一、登录
 
@@ -20,7 +20,7 @@
 
 登录成功后，根据用户角色判断显示不同菜单。 管理员显示所有菜单， 交易员仅显示“自选股行情”、“策略分析”
 
-![login](images\2.login.png)
+![login](images/2.login.png)
 
 # 二、系统管理
 
@@ -28,25 +28,25 @@
 
 用于添加/删除/修改用户信息、重置用户密码
 
-![users](images\3.users.png)
+![users](images/3.users.png)
 
 ## 2.2 菜单与权限
 
 菜单授权，可以修改角色访问权限。当前默认授权如下：系统管理员，可以进入所有菜单；　交易员仅访问“自选股行情”、“策略分析”
 
-![config](images\4.config.png)
+![config](images/4.config.png)
 
 ## 2.3 字典管理
 
 用于管理下拉框选项。 在字典项中添加新的选项时，页面也会同时出现相应选项。
 
-![dict](images\5.dict.png)
+![dict](images/5.dict.png)
 
 ## 2.4 系统日志
 
 用于查看用户的操作记录。
 
-![log](images\6.operation-log.png)
+![log](images/6.operation-log.png)
 
 # 三、行情中心
 
@@ -56,19 +56,19 @@
 
 不在此清单中的股票无法进行策略分析。
 
-![stock-list](images\7.stock-list.png)
+![stock-list](images/7.stock-list.png)
 
 ## 3.2 公共配置
 
 配置所有用户进行策略分析的公共参数. 
 
-![time-period](images\8.time-period.png)
+![time-period](images/8.time-period.png)
 
 ## 3.3 自选股行情
 
 每个用户可以添加自己的自选股， 方便实时查看报价等信息。
 
-![realtime-data](images\9.realtime-data.png)
+![realtime-data](images/9.realtime-data.png)
 
 ## 3.4 策略分析
 
@@ -78,7 +78,7 @@
 
 然后，在策略1---策略N中填写“必填”项参数，平台就会根据实时数据进行分析，并推送符合条件的信号。
 
-![monitor](images\10.monitor.png)
+![monitor](images/10.monitor.png)
 
 
 
